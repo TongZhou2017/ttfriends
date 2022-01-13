@@ -1,0 +1,37 @@
+---
+title: "junyuan_li"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{junyuan_li}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ttfriends)
+```
+
+```{r}
+df <- data.frame(x= c("A","A","B","B","B","C"),y=c("a","b","a","a","b","a"),z=1:6)
+df
+```
+
+```{r message=FALSE, warning=FALSE}
+table_bind_group(object = df,id = "x",col = "y")
+```
+
+```{r}
+table_bind_group(object = df,id = "x",col = "y",keep = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+table_bind_group(object = df,id = "x",col = "y",unique = FALSE)
+```
+
