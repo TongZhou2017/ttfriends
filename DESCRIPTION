@@ -1,11 +1,16 @@
 Package: ttfriends
 Type: Package
-Title: What the Package Does (Title Case)
+Title: An R Package with Toolkits Developed for Tong's Friends
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: 
+    person(
+    given = "Tong",
+    family = "Zhou",
+    role = c("aut", "cre"),
+    email = "tongzhou2017@gmail.com"
+  )
+Maintainer: Tong Zhou <tongzhou2017@gmail.com>
+Description: Ask me in issue channel and I will develop toolkit in R for you.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

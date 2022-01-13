@@ -1,5 +1,5 @@
 ---
-title: "junyuan_li"
+title: "Junyuan Li"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{junyuan_li}
@@ -18,19 +18,21 @@ knitr::opts_chunk$set(
 library(ttfriends)
 ```
 
+## Combine groups by column
+### Step 1 Create example data
 ```{r}
 df <- data.frame(x= c("A","A","B","B","B","C"),y=c("a","b","a","a","b","a"),z=1:6)
 df
 ```
-
+### Default parameter
 ```{r message=FALSE, warning=FALSE}
 table_bind_group(object = df,id = "x",col = "y")
 ```
-
+### Keep the other columns
 ```{r}
 table_bind_group(object = df,id = "x",col = "y",keep = TRUE)
 ```
-
+### Turn off unique filter 
 ```{r message=FALSE, warning=FALSE}
 table_bind_group(object = df,id = "x",col = "y",unique = FALSE)
 ```
