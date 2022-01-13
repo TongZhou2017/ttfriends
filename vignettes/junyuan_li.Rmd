@@ -19,7 +19,7 @@ library(ttfriends)
 ```
 
 ## Combine groups by column
-### Step 1 Create example data
+### Create example data
 ```{r}
 df <- data.frame(x= c("A","A","B","B","B","C"),y=c("a","b","a","a","b","a"),z=1:6)
 df
