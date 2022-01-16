@@ -1,5 +1,5 @@
 ---
-title: "Ziyu Zhang"
+title: "Ying Ma"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{ziyu_zhang}
