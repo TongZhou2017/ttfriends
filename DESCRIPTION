@@ -15,7 +15,14 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-    dplyr
+    dplyr,
+    sva,
+    limma,
+    batchelor,
+    harmony,
+    ggbiplot,
+    ggplot2,
+    stats
 RoxygenNote: 7.1.0
 Suggests: 
     knitr,

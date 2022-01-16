@@ -16,6 +16,9 @@
     <loc>/articles/junyuan_li.html</loc>
   </url>
   <url>
+    <loc>/articles/ziyu_zhang.html</loc>
+  </url>
+  <url>
     <loc>/authors.html</loc>
   </url>
   <url>
@@ -26,5 +29,8 @@
   </url>
   <url>
     <loc>/reference/table_bind_group.html</loc>
+  </url>
+  <url>
+    <loc>/reference/table_correct_batch.html</loc>
   </url>
 </urlset>
