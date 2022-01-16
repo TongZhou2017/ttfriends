@@ -30,31 +30,31 @@ rownames(tab) <- 1:nrow(tab)
 ```
 
 ## Raw
-```{r}
+```{r message=FALSE, warning=FALSE}
 raw <- table_correct_batch(tab,"raw",plot = T,meta_data = group,batch = "batch",group = "group")
 raw[[2]] + raw[[3]]
 ```
 
 ## Combat
-```{r}
+```{r message=FALSE, warning=FALSE}
 combat <- table_correct_batch(tab,"combat",plot = T,meta_data = group,batch = "batch",group = "group")
 combat[[2]] + combat[[3]]
 ```
 
 ## Limma
-```{r}
+```{r message=FALSE, warning=FALSE}
 limma <- table_correct_batch(tab,"limma",plot = T,meta_data = group,batch = "batch",group = "group")
 limma[[2]] + limma[[3]]
 ```
 
 ## MNN
-```{r}
+```{r message=FALSE, warning=FALSE}
 mnn <- table_correct_batch(tab,"mnn",plot = T,meta_data = group,batch = "batch",group = "group")
 mnn[[2]] + mnn[[3]]
 ```
 
 ## Harmony
-```{r}
+```{r message=FALSE, warning=FALSE}
 harmony <- table_correct_batch(tab,"harmony",plot = T,meta_data = group,batch = "batch",group = "group")
 harmony[[2]] + harmony[[3]]
 ```
