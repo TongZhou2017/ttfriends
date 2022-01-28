@@ -7,9 +7,12 @@
 #' @param sep the separator between combined group
 #' @param keep keep other columns
 #' @param unique unique while combinning
+#' @param count count groups
+#' @param label_count the new count column name
 #' @import dplyr
+#' @importFrom stringr str_count
 #' @export
-table_bind_group <- function(object,id,col,label="groups",sep=";",keep=FALSE,unique=TRUE){
+table_bind_group <- function(object,id,col,label="groups",sep=";",keep=FALSE,unique=TRUE,count=FALSE,label_count="count"){
   if(unique){
     object <- object %>%
       ungroup() %>%
@@ -26,6 +29,10 @@ table_bind_group <- function(object,id,col,label="groups",sep=";",keep=FALSE,uni
       mutate(!!label := paste0(.data[[col]], collapse = sep)) %>%
       select(.data[[label]]) %>%
       distinct(.data[[id]],.data[[label]])
+  }
+  if(count){
+    object <- object %>%
+      mutate(!!label_count := stringr::str_count(.data[[label]],sep) + 1)
   }
   return(object)
 }

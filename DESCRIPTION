@@ -22,7 +22,8 @@ Imports:
     harmony,
     ggbiplot,
     ggplot2,
-    stats
+    stats,
+    stringr
 RoxygenNote: 7.1.0
 Suggests: 
     knitr,

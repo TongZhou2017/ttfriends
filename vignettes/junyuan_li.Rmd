@@ -37,3 +37,8 @@ table_bind_group(object = df,id = "x",col = "y",keep = TRUE)
 table_bind_group(object = df,id = "x",col = "y",unique = FALSE)
 ```
 
+### Add count
+```{r message=FALSE, warning=FALSE}
+table_bind_group(object = df,id = "x",col = "y",count = TRUE)
+```
+

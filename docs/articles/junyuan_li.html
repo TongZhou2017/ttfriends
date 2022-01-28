@@ -140,6 +140,19 @@
 <span class="co">#&gt; <span style="color: #BCBCBC;">2</span><span> B     a;a;b </span></span>
 <span class="co">#&gt; <span style="color: #BCBCBC;">3</span><span> C     a</span></span></code></pre></div>
 </div>
+<div class="section level3">
+<h3 id="add-count">Add count<a class="anchor" aria-label="anchor" href="#add-count"></a>
+</h3>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="../reference/table_bind_group.html">table_bind_group</a></span><span class="op">(</span>object <span class="op">=</span> <span class="va">df</span>,id <span class="op">=</span> <span class="st">"x"</span>,col <span class="op">=</span> <span class="st">"y"</span>,count <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
+<span class="co">#&gt; <span style="color: #949494;"># A tibble: 3 × 3</span></span>
+<span class="co">#&gt; <span style="color: #949494;"># Groups:   x [3]</span></span>
+<span class="co">#&gt;   x     groups count</span>
+<span class="co">#&gt;   <span style="color: #949494;font-style: italic;">&lt;fct&gt;</span><span> </span><span style="color: #949494;font-style: italic;">&lt;chr&gt;</span><span>  </span><span style="color: #949494;font-style: italic;">&lt;dbl&gt;</span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">1</span><span> A     a;b        2</span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">2</span><span> B     a;b        2</span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">3</span><span> C     a          1</span></span></code></pre></div>
+</div>
 </div>
   </div>
 

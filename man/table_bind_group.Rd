@@ -11,7 +11,9 @@ table_bind_group(
   label = "groups",
   sep = ";",
   keep = FALSE,
-  unique = TRUE
+  unique = TRUE,
+  count = FALSE,
+  label_count = "count"
 )
 }
 \arguments{
@@ -28,6 +30,10 @@ table_bind_group(
 \item{keep}{keep other columns}
 
 \item{unique}{unique while combinning}
+
+\item{count}{count groups}
+
+\item{label_count}{the new count column name}
 }
 \description{
 Combine groups by column
