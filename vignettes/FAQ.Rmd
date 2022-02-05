@@ -222,7 +222,7 @@ https://mp.weixin.qq.com/s/1wPzxWm35ItxQcrBP9sSaw
 
 https://www.bilibili.com/video/BV1Fr4y1v7MG/  b站的一个教学视频
 
-TOF-MS飞行质谱,做微生物谱峰筛选建库，一头雾水
+做微生物谱峰筛选建库，一头雾水
 
 我之前用的比较多的TOF-MS是AB公司的5600，还用过赛默飞的Orbitrap fusion lumos三合一，这个是包含三个质量分析器，没有飞行时间模块，但是对于我来说建库都是一样的，我是做植物的，对微生物不太了解，你是自己建库还是？
 
