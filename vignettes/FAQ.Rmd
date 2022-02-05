@@ -163,9 +163,23 @@ https://mp.weixin.qq.com/s/ha2iGEibsAV4Td6kiGh0WA
 ComplexHeatmap包作者顾博士将在5月3-6日举办一次基因富集分析线上培训，有兴趣的老师可以了解一下，因为是付费课程，就不统一组织学习了。https://www.physalia-courses.org/courses-workshops/gse-in-r/
 https://mp.weixin.qq.com/s/1wPzxWm35ItxQcrBP9sSaw
 
+![41760beee2008e48d8f1b6d913e9d448_](https://user-images.githubusercontent.com/71883518/152626636-431deed3-16e6-40bf-b629-33ff2f02abe0.jpg)请问这里面哪一个相当于转录组学中的expression
+
+这个应该不是蛋白组是不是基因组，我之前做过蛋白组的分析  应该是log prob
+
+我得到的表格不是这样的，用的是PG.Quantity，我之前咨询过别人，有的用的是PeakArea。平台用的是spectronaut软件。
+
 #### 问题20 谱系多样性的树构建
+关于谱系多样性指数的计算，我现在有otu表，但是那个树文件不知道怎么构建，想求助一下，谢谢
+
+在厉神群已解答这个问题，同步给本群同样感兴趣这个问题的老师：
+1. 下载数据，2. 校对数据，3. 比对，4. 校对数据，5. NJ建树， 6. 校对数据. 7. Model selection, 8. RAxML或者IQtree，或者BEAST建树， 9. 校对，如果有错误，回到第4步， 10. 订年（r8s, pathd8, ape, treePL
+），转换为ultrametric tree，11. 读入R，如果不是ultrametric，用phytools转换为ultrametric，12. 用picante等包，计算系统发育多样性指数
 
 #### 问题21 飞行质谱微生物筛选
+
+![5da79c97859d3ded6c4f3c54c9bd268f_](https://user-images.githubusercontent.com/71883518/152626724-30af075d-e0d5-4cc8-be86-1d422d3ffb2c.jpg)大佬们知道这种图怎么做的吗
+
 
 #### 问题13 R在数量生态学中的应用问题(RDA)
 
