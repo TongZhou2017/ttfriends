@@ -37,12 +37,29 @@ table_correct_batch <- function(object,method,plot,meta_data,id=NULL,batch,group
   if(method == "mnn"){
     n = length(table(meta_data[[batch]]))
     types = names(table(meta_data[[batch]]))
-    if(n==3){
-      tab_1 <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[1]),]))]
-      tab_2 <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[2]),]))]
-      tab_3 <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[3]),]))]
-      tab_fastMNN_object <- fastMNN(tab_1,tab_2,tab_3)
+
+    str_1 <- NULL
+    str_2 <- NULL
+    for (i in 1:n) {
+      print(i)
+      str_1 <- paste0(str_1,paste0("tab_",i," <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[",i,"]),]))]"),sep=";")
+      str_2 <- paste0(str_2,paste0("tab_",i),sep=",")
     }
+    str_1 <- stringr::str_remove(str_1,";$")
+    str_2 <- stringr::str_remove(str_2,",$")
+    str_3 <- paste0("tab_fastMNN_object <- fastMNN(",str_2,")")
+    print(str_1)
+    print(str_2)
+    print(str_3)
+    eval(parse( text=str_1 ))
+    eval(parse( text=str_3 ))
+
+    #if(n==3){
+    #  tab_1 <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[1]),]))]
+    #  tab_2 <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[2]),]))]
+    #  tab_3 <- object[,which(colnames(object) %in% rownames(meta_data[which(meta_data[[batch]] == types[3]),]))]
+    #  tab_fastMNN_object <- fastMNN(tab_1,tab_2,tab_3)
+    #}
     object <- as.data.frame(tab_fastMNN_object@assays@data$reconstructed)
     pca <- prcomp(t(object),scale. = T)
   }
