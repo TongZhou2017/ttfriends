@@ -1,1 +1,1 @@
-utils::globalVariables(c(":="))
+utils::globalVariables(c(":=","tab_fastMNN_object"))
