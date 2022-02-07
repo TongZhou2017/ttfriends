@@ -116,7 +116,43 @@ knitr::opts_chunk$set(
 
 #### 问题2 课程信息
 
+组织者也都是学生或者年轻的学者
+课程内容我看也挺不错，是R语言比较系统的课程
+这种课在国内应该也挺贵的
+在国内也很难有机会听纯英文的了，他们也都是有一线的科研背景，所以课程质量应该还是有保障的
+
+
+英国时间每周三下午3-5点 = 北京时间每周三晚上11-次日1点
+zoom直播R语言系列课程
+https://ed-ac-uk.zoom.us/j/84758515466
+Meeting ID: 847 5851 5466
+Passcode: cod1ngclub
+课程主页 https://ourcodingclub.github.io/
+日程表 https://drive.google.com/file/d/1LWkdrlT88zoSlRSIkl8xG6Wz92D4hZFa/view
+代码及数据 https://ourcodingclub.github.io/tutorials/intro-to-r/
+
+由于第一节课我们没有录屏，错过第一节课程的可以先看以下B站频道自学补上进度
+https://space.bilibili.com/1979221372
+
+如有R语言个性化开发需求请在以下频道提出开发需求
+https://github.com/TongZhou2017/ttfriends/discussions
+相关个性化开发动态请关注公众号TTfriends以及个性化R包主页（已开发完成的功能会以需求者命名显示在Article下拉选项中）
+https://tongzhou2017.github.io/ttfriends/
+
+<img width="514" alt="dcfdec763f2d51f70d1617814df093bb_" src="https://user-images.githubusercontent.com/99133678/152771254-a23f2adf-d8c0-411e-b1bd-4aec97e53b57.png">
+
+
+第一节课在今天凌晨1点结束了（和我朋友圈说的今天晚上明天凌晨有出入，时间差计算错了），非常可惜。为了确保大家进度一致，我今晚9-10点这个时间段会发一遍第一课的内容PDF文档（主要是方便打开网页和寻找资料有困难的朋友），在此之前，大家可以拉一下自己的朋友（有R语言学习需求的）进群，避免新人错过消息。
+
+
 #### 问题7 课程资料
+
+直播里第一课对应了三部分内容，有的内容可能受网络影响会在国内不好访问，我只是搬运过来，方便大家阅读，了解课程进度。相关内容遇到问题的话随时群内交流。
+
+今日学习进度同步
+目标：解压缩昨天晚上的压缩包，打开01_Getting_started中的CC_1_RBasics_Full_Script2.r代码，在R中试运行，学习R的基本操作流。
+如果遇到问题可以先看一下我注释的导读版本，任何无法解决的问题可以在群中交流。
+
 
 #### 问题22 coding club课程资料
 根据邮件提示，尽量在今天课程开始前完成GitHub账户注册和计算环境中的git安装，pdf为本次课程相关内容以供预习。
