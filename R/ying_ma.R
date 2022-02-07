@@ -80,5 +80,5 @@ table_correct_batch <- function(object,method,plot,meta_data,id=NULL,batch,group
 #  tab_cca_list[[i]] <- FindVariableFeatures(tab_cca_list[[i]], selection.method = "vst", nfeatures = 2000,
 #                                             verbose = FALSE)
 #}
-#tab_cca_anchors <- FindIntegrationAnchors(object.list = tab_cca_list, dims = 1:7,nn.method = "annoy")
+#tab_cca_anchors <- FindIntegrationAnchors(object.list = tab_cca_list, dims = 1:29,nn.method = "annoy")
 #tab_cca_integrated <- IntegrateData(anchorset = tab_cca_list, dims = 1:30)
