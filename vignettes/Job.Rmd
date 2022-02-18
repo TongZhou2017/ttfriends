@@ -16,5 +16,10 @@ knitr::opts_chunk$set(
 
 ## 职位
 
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(DT)
+tab <- read.table("~/r-package-dev/ttfriends/inst/extdata/Job.txt",sep="\t",header=T,stringsAsFactors = F)
+tab %>% datatable(options = list(dom='ft',scrollX =TRUE,pageLength = nrow(tab)))
+```
 
 ## 来源

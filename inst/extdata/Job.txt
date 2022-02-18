@@ -1,0 +1,68 @@
+城市	单位	团队/部门	职位	方向	优先背景	要求	薪资	申请材料	申请截止日期	联系方式	详情	来源	填写人
+温州	温州医科大学	薛向阳组	博后	胃肠道肿瘤	临床专业		20			wzxxy001@163.com	HCMV病毒ULb’区基因对胃癌发生发展的影响	叶乐乐	周通
+杭州	浙江大学	钱俊斌组	博后	生物信息学（单细胞测序、空间组学分析）	生物信息学、统计学、系统生物学、生物工程、应用数学、理论物理、计算机科学	R、Python	25-42	个人简历、研究兴趣、2位推荐人联系方式	长期有效，招满为止	dr_qian@zju.edu.cn	https://mp.weixin.qq.com/s/mreRBtpwFmnOO3UA1-q7cA	叶乐乐	周通
+杭州	浙江大学	钱俊斌组	博后	肿瘤学（肿瘤微环境与免疫治疗）	免疫学、分子生物学、细胞生物学、生物化学、药物学、医学、肿瘤学	动物模型	25-42	个人简历、研究兴趣、2位推荐人联系方式	长期有效，招满为止	dr_qian@zju.edu.cn	https://mp.weixin.qq.com/s/mreRBtpwFmnOO3UA1-q7cA	叶乐乐	周通
+上海	上海究本生物科技有限公司	项目部	工程师	微生物测序数据分析	分子生物学、医学、生物信息学	Linux、R、Python、Perl、snakemake	面议	个人简历		bioinformatics@adfontes.com.cn	pdf	赖仁福	周通
+上海	同济大学	吴齐辉组	博后			一作SCI 1篇以上		个人简历和拟入职时间（邮件标题格式：应聘岗位+本人姓名+学位+毕业学校+所学专业）	长期有效	qihuiwu@tongji.edu.cn	https://www.x-mol.com/groups/wulab	吴齐辉	周通
+上海	同济大学	吴齐辉组	博士					个人简历和拟入职时间（邮件标题格式：应聘岗位+本人姓名+学位+毕业学校+所学专业）	长期有效	qihuiwu@tongji.edu.cn	https://www.x-mol.com/groups/wulab	吴齐辉	周通
+上海	同济大学	吴齐辉组	硕士					个人简历和拟入职时间（邮件标题格式：应聘岗位+本人姓名+学位+毕业学校+所学专业）	长期有效	qihuiwu@tongji.edu.cn	https://www.x-mol.com/groups/wulab	吴齐辉	周通
+上海	同济大学	吴齐辉组	研究助理					个人简历和拟入职时间（邮件标题格式：应聘岗位+本人姓名+学位+毕业学校+所学专业）	长期有效	qihuiwu@tongji.edu.cn	https://www.x-mol.com/groups/wulab	吴齐辉	周通
+全国	新格元生物	销售部	销售		生物学、医学专业		8.4~14.4			wangks@singleronbio.com		孙敬强	周通
+南京	新格元生物		药企BD							wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		实验工程师		生物学、医学专业		8.4~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		研发工程师		生物学、医学专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		技术支持专员		生物学、医学专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		产品经理		生物学、医学专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		市场推广专员		生物医药类、市场推广专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		生物信息工程师		生物信息学、基因组学、遗传学专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		生物医学报告解读		生物学、遗传学、生物医学专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+南京	新格元生物		项目经理		生物、农学、医学、临床检验专业		10.8~14.4			wangks@singleronbio.com		王克盛	周通
+北京	凌恩生物	销售部	销售									孙敬强	周通
+天津		销售部	销售									孙敬强	周通
+郑州		销售部	销售									孙敬强	周通
+拉萨	青藏高原研究所	孔维栋组	博后	极端环境微生物（功能、基因、物种）多样性（高通量测序）								赵锦	周通
+	广西医科大学	莫曾南组										莫曾南	周通
+Oxford	The University of Oxford	Ronjon Chakraverty Lab	博后	cellular therapeutics		R、Python、DNAseq、RNAseq、ATACseq、single cell analysis、T cell lines/clones、functional immunologic assays	£33,309 - £40,927		2022-04-01	https://www.jobs.ox.ac.uk/how-to-apply	pdf	张培芬	周通
+Oxford	The University of Oxford	Adam Wilkinson Lab	博后	Haematopoietic stem cell biology		haematopoietic stem cell biology, haematopoiesis, CRISPR/Cas9 technologies, computational analysis of genomic datasets, and functional in vivo and in vitro assays、R、RNAseq, ATACseq, single cell analysis	£33,309 - £40,927		2022-04-01	https://www.jobs.ox.ac.uk/how-to-apply	https://www.imm.ox.ac.uk/research/research-groups/wilkinson- group	张培芬	周通
+全国	安捷伦	销售部	销售							Becky.Zheng@non.agilent.com	pdf	张小峰	周通
+湖州	浙江省淡水水产研究所		事业编	水产（全省淡水渔业研究和应用推广）			~45	"（1）《浙江省事业单位公开招聘报名表》（样表见附件）；
+        （2）身份证正反面扫描件；
+        （3）岗位要求的学历、学位证书(应届毕业生未取得证书的提供学校核发的就业推荐表；留学回国人员提供《留学回国人员证明》)扫描件；  
+        （4）代表性论文著作、科研成果、获奖证明等扫描件；
+        （5）与应聘岗位相关的资格证书扫描件。"	2022-03-31	dsszhp@sina.com		周开臣	周通
+New Haven	Yale University	Mamoun Lab	博后	microbial pathogenesis and translational medicine	molecular biology, cell biology, genetics and immunobiology			curriculum vitae, description of research experience, and three references		choukri.benmamoun@yale.edu	https://medicine.yale.edu/profile/choukri_benmamoun/?tab=research	朱冠	周通
+	University of Basel	Moritz Lehmann Lab	博士	GHG production in Arctic and Alpine Lakes						moritz.lehmann@unibas.ch	duw.unibas.ch/de/bgc/	王秀玲	周通
+上海	石药集团有限公司	新药研发所	研发			生信技能、懂一些实验操作的，想在mRNA、siRNA药物设计、优化方面发展的				hswanglingyu@mail.ecspc.com		王凌宇	周通
+海口	海南大学	周腾组	博后	微流控海洋监测机电装备	机械，力学，生物，海洋工程等					微信	https://m.x-mol.com/groups/zhouteng/positions/19417	周腾	周通
+全国	中科脂典	销售部	销售							kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+北京	中科脂典	项目部	生信		 R, shiny, Matlab 和统计学分析	R, shiny, Matlab 和统计学分析				kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+常州	中科脂典	项目部	生信		 R, shiny, Matlab 和统计学分析	R, shiny, Matlab 和统计学分析				kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+北京	中科脂典	技术部	技术支持		生物生化专业					kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+常州	中科脂典	技术部	技术支持		生物生化专业					kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+北京	中科脂典	研发部	实验技术员		生物化学、分析化学等	制备色谱、试剂盒开发、脂类有效成分提取开发、小试中试经验、试剂分离提取、试剂生产				kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+北京	中科脂典	研发部	组学工程师		生物化学、分析化学等	脂质组学、代谢组学、蛋白组学等操作经验、熟悉色谱、质谱操作、有非靶向代谢组学经验、分子实验，小鼠细胞培养，WB，PCR及相关实验技术者				kliu@lipidall.com	https://mp.weixin.qq.com/s/txsxGVXch-JtFd1FbGYV-g	刘仡飞	周通
+	西澳大学		联培博士	Tightening the phosphorus cycle for grain legumes	植物营养学、作物生态学或微生物生态学	突出的英语技能,具备根际过程、植物-土壤互作、植物生理生态、微生物技术等相关试验与分析技能			2022-03-1	"hans.lambers@uwa.edu. au
+jiayin.pang@uwa.edu. au
+wenfeng.cong@cau.edu.cn"	https://mp.weixin.qq.com/s/XqbH3y25Kd7MMOdgDspuJQ	郭瑶	周通
+重庆/沈阳	重庆医科大学/东北大	郭劲宏组/田野组	联合博后		生物医学工程，生物传感器、分析化学、微流控技术、POCT/IVD、分子诊断等	相关领域发表过SCI论文1篇以上	30~50	个人简历、代表性论文及其他可证明自身能力的材料，邮件主题“姓名-博士后申请”	长期有效，招满为止	tianye@bmie.neu.edu.cn	https://mp.weixin.qq.com/s/DdS_FDIA4tirpsMzdt4rbw	田野	周通
+北京	清研环境科技股份有限公司		营销助理					邮 件标题为“应聘岗位+姓名”		hr@tsinghuan.com.cn	pdf	何琦	周通
+深圳	清研环境科技股份有限公司	技术研发	工程师		环境工程、给排水、市政工程、环境微生物 类相关专业	熟练掌握污水生化处理技术及相关工艺原理，熟 悉高通量微生物学分析、发表过 SCI 者优先		邮 件标题为“应聘岗位+姓名”		hr@tsinghuan.com.cn	pdf	何琦	周通
+深圳	清研环境科技股份有限公司	技术研发	研发产品专员		环境工程或相关专业	熟悉污水处理方案设计、 具有环保行业从业经验者		邮 件标题为“应聘岗位+姓名”		hr@tsinghuan.com.cn	pdf	何琦	周通
+深圳	清研环境科技股份有限公司	技术研发	助理研发工程师		环境工程、化学工程(或化工机械)专业	熟 练掌握相关专业的试验技能及仪器的操作;拥有污水处理方案 设计经验者、熟悉化工机械者		邮 件标题为“应聘岗位+姓名”		hr@tsinghuan.com.cn	pdf	何琦	周通
+深圳	清研环境科技股份有限公司	技术研发	研发实验员		环境、化工、生物类相关专业	熟悉各类水 质的分析，如 COD、BOD、氨氮、总磷、总氮、重金属含量等各 项指标		邮 件标题为“应聘岗位+姓名”		hr@tsinghuan.com.cn	pdf	何琦	周通
+深圳	清研环境科技股份有限公司		污水处理技术员		环境工程、给排水、化学等相关专业	具有 污水处理厂运营实践经验者		邮 件标题为“应聘岗位+姓名”		hr@tsinghuan.com.cn	pdf	何琦	周通
+南京			医学信息经理		医学方向博士					微信:18662279263		Tina	周通
+南京			医学经理		有上市前医学经验					微信:18662279263		Tina	周通
+居家			医学总监		8-10年及以上临床医学经验					微信:18662279263		Tina	周通
+全国			CRA/SCRA/PM		1期到4期临床经验					微信:18662279263		Tina	周通
+北京		数统编	数据资深经理							微信:18662279263		Tina	周通
+上海		数统编	数据资深经理									Tina	周通
+成都		数统编	数据资深经理									Tina	周通
+全国		数统编	统计资深经理									Tina	周通
+北京		数统编	编程资深经理									Tina	周通
+上海		数统编	编程资深经理									Tina	周通
+成都		数统编	编程资深经理									Tina	周通
+聊城	聊城大学										https://mp.weixin.qq.com/s/TRTH-nUC25rPqoYxEWoptw	董秀	周通
+杭州	浙江大学	俞萍锋组	博后		微生物学	性格成熟，执行力强；基础就看发的文章，我们领域发过EST和W R就算					https://mp.weixin.qq.com/s/xVvvW9uxboI0uffBChkpMw	俞萍锋	周通
+深圳	中国农业科学院深圳农业基因组研究所	易国强组	博后	生猪遗传育种	动物遗传育种、生物信息学、功能基因组	基因组、表观组和单细胞等多组学技术，在本研究领域以第一作者发表过较高水平SCI研究论文	30		个人简历（包含教育经历、研究经历、论文发表）、代表作和研究意向，邮件主题和材料压缩文件请注明“姓名+申请博士后”	yiguoqiang@caas.cn	https://mp.weixin.qq.com/s/5_MLZ7T5Ue00uyUJ1EaLLg	刘芹红	周通
+济南	山东欧莱德仪器有限公司	销售部	销售		化学、环保专业					13205428090张宁	微信	孙敬强	周通
