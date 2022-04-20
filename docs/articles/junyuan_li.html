@@ -160,6 +160,75 @@
 <span class="co">#&gt; <span style="color: #BCBCBC;">3</span><span> C     a          1</span></span></code></pre></div>
 </div>
 </div>
+<div class="section level2">
+<h2 id="split-groups-by-column">Split groups by column<a class="anchor" aria-label="anchor" href="#split-groups-by-column"></a>
+</h2>
+<div class="section level3">
+<h3 id="default-parameter-1">Default parameter<a class="anchor" aria-label="anchor" href="#default-parameter-1"></a>
+</h3>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">df2</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span>x<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"A"</span>,<span class="st">"B"</span><span class="op">)</span>,y<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"123"</span>,<span class="st">"4567"</span><span class="op">)</span>,z<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"C"</span>,<span class="st">"D"</span><span class="op">)</span><span class="op">)</span>
+<span class="va">df2</span>
+<span class="co">#&gt;   x    y z</span>
+<span class="co">#&gt; 1 A  123 C</span>
+<span class="co">#&gt; 2 B 4567 D</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="../reference/table_split_group.html">table_split_group</a></span><span class="op">(</span>object <span class="op">=</span> <span class="va">df2</span>, col<span class="op">=</span><span class="st">"y"</span><span class="op">)</span>
+<span class="co">#&gt; <span style="color: #949494;"># A tibble: 7 × 3</span></span>
+<span class="co">#&gt;   x     y     z    </span>
+<span class="co">#&gt;   <span style="color: #949494;font-style: italic;">&lt;fct&gt;</span><span> </span><span style="color: #949494;font-style: italic;">&lt;chr&gt;</span><span> </span><span style="color: #949494;font-style: italic;">&lt;fct&gt;</span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">1</span><span> A     1     C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">2</span><span> A     2     C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">3</span><span> A     3     C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">4</span><span> B     4     D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">5</span><span> B     5     D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">6</span><span> B     6     D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">7</span><span> B     7     D</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="ignore-header">Ignore header<a class="anchor" aria-label="anchor" href="#ignore-header"></a>
+</h3>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">df3</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span>x<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"A"</span>,<span class="st">"B"</span><span class="op">)</span>,y<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"apple123"</span>,<span class="st">"banana4567"</span><span class="op">)</span>,z<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"C"</span>,<span class="st">"D"</span><span class="op">)</span><span class="op">)</span>
+<span class="va">df3</span>
+<span class="co">#&gt;   x          y z</span>
+<span class="co">#&gt; 1 A   apple123 C</span>
+<span class="co">#&gt; 2 B banana4567 D</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="../reference/table_split_group.html">table_split_group</a></span><span class="op">(</span>object <span class="op">=</span> <span class="va">df3</span>, col<span class="op">=</span><span class="st">"y"</span>, header<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"apple"</span>,<span class="st">"banana"</span><span class="op">)</span><span class="op">)</span>
+<span class="co">#&gt; <span style="color: #949494;"># A tibble: 7 × 3</span></span>
+<span class="co">#&gt;   x     y       z    </span>
+<span class="co">#&gt;   <span style="color: #949494;font-style: italic;">&lt;fct&gt;</span><span> </span><span style="color: #949494;font-style: italic;">&lt;chr&gt;</span><span>   </span><span style="color: #949494;font-style: italic;">&lt;fct&gt;</span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">1</span><span> A     apple1  C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">2</span><span> A     apple2  C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">3</span><span> A     apple3  C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">4</span><span> B     banana4 D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">5</span><span> B     banana5 D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">6</span><span> B     banana6 D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">7</span><span> B     banana7 D</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="custom-separator">Custom separator<a class="anchor" aria-label="anchor" href="#custom-separator"></a>
+</h3>
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">df4</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span>x<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"A"</span>,<span class="st">"B"</span><span class="op">)</span>,y<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"OTU1;k=1;p=2;c=3"</span>,<span class="st">"OTU2;k=1;p=2;c=4"</span><span class="op">)</span>,z<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"C"</span>,<span class="st">"D"</span><span class="op">)</span><span class="op">)</span>
+<span class="va">df4</span>
+<span class="co">#&gt;   x                y z</span>
+<span class="co">#&gt; 1 A OTU1;k=1;p=2;c=3 C</span>
+<span class="co">#&gt; 2 B OTU2;k=1;p=2;c=4 D</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="../reference/table_split_group.html">table_split_group</a></span><span class="op">(</span>object <span class="op">=</span> <span class="va">df4</span>, col<span class="op">=</span><span class="st">"y"</span>, header<span class="op">=</span><span class="st">"OTU.;"</span>, sep<span class="op">=</span><span class="st">";"</span><span class="op">)</span>
+<span class="co">#&gt; <span style="color: #949494;"># A tibble: 6 × 3</span></span>
+<span class="co">#&gt;   x     y        z    </span>
+<span class="co">#&gt;   <span style="color: #949494;font-style: italic;">&lt;fct&gt;</span><span> </span><span style="color: #949494;font-style: italic;">&lt;chr&gt;</span><span>    </span><span style="color: #949494;font-style: italic;">&lt;fct&gt;</span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">1</span><span> A     OTU1;k=1 C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">2</span><span> A     OTU1;p=2 C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">3</span><span> A     OTU1;c=3 C    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">4</span><span> B     OTU2;k=1 D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">5</span><span> B     OTU2;p=2 D    </span></span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">6</span><span> B     OTU2;c=4 D</span></span></code></pre></div>
+</div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

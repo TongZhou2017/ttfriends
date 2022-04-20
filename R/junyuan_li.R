@@ -36,3 +36,25 @@ table_bind_group <- function(object,id,col,label="groups",sep=";",keep=FALSE,uni
   }
   return(object)
 }
+
+#' Split groups by column
+#' @description Split groups by column
+#' @param object a data frame with two or more columns
+#' @param col the coloumn for split
+#' @param header header string to ignore
+#' @param sep the split separator in string
+#' @import dplyr
+#' @importFrom tidyr separate_rows
+#' @importFrom stringr str_extract
+#' @importFrom stringr str_remove
+#' @export
+table_split_group <- function(object,col,header="",sep=""){
+    header = paste0("^",paste0(header,collapse ="|"))
+    object <- object %>%
+      mutate(y1 = stringr::str_extract(.data[[col]],header), y2 = stringr::str_remove(.data[[col]],header)) %>%
+      separate_rows(y2,sep=sep) %>%
+      filter(y2 != "") %>%
+      mutate(!!col := paste0(y1,y2)) %>%
+      select(-y1,-y2)
+    return(object)
+}

@@ -23,7 +23,8 @@ Imports:
     ggbiplot,
     ggplot2,
     stats,
-    stringr
+    stringr,
+    tidyr
 RoxygenNote: 7.1.0
 Suggests: 
     knitr,

@@ -42,3 +42,34 @@ table_bind_group(object = df,id = "x",col = "y",unique = FALSE)
 table_bind_group(object = df,id = "x",col = "y",count = TRUE)
 ```
 
+## Split groups by column
+
+### Default parameter
+```{r}
+df2 <- data.frame(x=c("A","B"),y=c("123","4567"),z=c("C","D"))
+df2
+```
+
+```{r}
+table_split_group(object = df2, col="y")
+```
+
+### Ignore header
+```{r}
+df3 <- data.frame(x=c("A","B"),y=c("apple123","banana4567"),z=c("C","D"))
+df3
+```
+
+```{r}
+table_split_group(object = df3, col="y", header=c("apple","banana"))
+```
+
+### Custom separator
+```{r}
+df4 <- data.frame(x=c("A","B"),y=c("OTU1;k=1;p=2;c=3","OTU2;k=1;p=2;c=4"),z=c("C","D"))
+df4
+```
+
+```{r}
+table_split_group(object = df4, col="y", header="OTU.;", sep=";")
+```
